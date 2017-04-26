@@ -45,5 +45,48 @@
         android:id="@+id/question"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="bird"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/choice1"
+        />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:text="deer"
+        android:textColor="#fff"
+
+        />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:text="rock"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="8dp"
+        android:text="quit"
+        android:textColor="#fff" />
+
 
 </LinearLayout>
