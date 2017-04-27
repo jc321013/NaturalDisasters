@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
         //End of Button Listener for Button1
 
+
         //Start of Button Listener for Button2
         mButtonChoice2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         mQuestionView.setText(mQuestionLibrary.getQuestion(mQuestionNumber));
         mButtonChoice1.setText(mQuestionLibrary.getChoice1(mQuestionNumber));
         mButtonChoice2.setText(mQuestionLibrary.getChoice2(mQuestionNumber));
-        mButtonChoice3.setText(mQuestionLibrary.getChoice2(mQuestionNumber));
+        mButtonChoice3.setText(mQuestionLibrary.getChoice3(mQuestionNumber));
 
         mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber);
         mQuestionNumber++;
