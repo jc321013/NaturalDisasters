@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#b9babf"
+
     android:orientation="vertical"
     tools:context="com.example.jc321013.naturaldisasters.MainActivity">
 
@@ -11,57 +13,54 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="6dp"
         android:layout_marginBottom="40dp"
-        >
+        android:padding="6dp">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Score"
-            android:layout_alignParentLeft="true"
             android:id="@+id/score_text"
-            android:textSize="20sp"
-            />
-        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0"
+            android:layout_alignParentLeft="true"
+            android:text="Score"
+            android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/score"
-            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:text="0"
+            android:textSize="20sp"
 
             />
 
     </RelativeLayout>
 
     <TextView
+        android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Which thing is alive"
-        android:textSize="20sp"
-        android:padding="8dp"
         android:layout_marginBottom="48dp"
-        android:id="@+id/question"
-        />
+        android:padding="8dp"
+        android:text="Which thing is alive"
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/choice1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_light"
-        android:text="bird"
-        android:textColor="#fff"
-        android:padding="8dp"
         android:layout_marginBottom="24dp"
-        android:id="@+id/choice1"
-        />
+        android:background="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="bird"
+        android:textColor="#fff" />
 
     <Button
         android:id="@+id/choice2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="@android:color/holo_blue_light"
+        android:background="@color/colorPrimary"
         android:padding="8dp"
         android:text="deer"
         android:textColor="#fff"
@@ -73,7 +72,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:background="@android:color/holo_blue_light"
+        android:background="@color/colorPrimary"
         android:padding="8dp"
         android:text="rock"
         android:textColor="#fff" />
