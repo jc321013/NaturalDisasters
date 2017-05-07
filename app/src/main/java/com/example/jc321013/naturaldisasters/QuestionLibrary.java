@@ -7,20 +7,30 @@ package com.example.jc321013.naturaldisasters;
 public class QuestionLibrary {
 
     private String mQuestions [] = {
-            "Which part of the plant holds it in the soil?",
-            "This part of the plant absorbs energy from the sun.",
-            "This part of the plant attracts bees, butterflies and hummingbirds.",
-            "The ______ holds the plant upright"
+            "Bushfires are only caused by humans?",
+            "What is a flood?",
+            "Tropical Cyclones form over warm waters?",
+            "To cause damage an earthquake needs to exceed what magnitude?",
+            "What isn't a requirement for severe storms to develop?",
+            "What is a Tsunami?",
+            "Is an Earthquake caused by sudden movements of tectonic plates?",
+            "Which of the following is not a natural hazard?",
+            "Which of the following is Incorrect about Volcanoes?:"
     };
 
     private String mChoices [][] = {
-            {"Roots", "Stem", "Flower"},
-            {"Fruit", "Leaves", "Seeds"},
-            {"Bark", "Flower", "Roots"},
-            {"Flower", "Leaves", "Stem"},
+            {"True", "False", " "},
+            {"Excess water", "Heavy Rainfall", "An overflow of water that submerges land"},
+            {"True", "False", " "},
+            {"9", "6", "7"},
+            {"Moist/Humid air", "Rainfall", "An area of low pressure"},
+            {"A Massive wave", "Big Surf", "A large wave usually formed by undersea earthquakes and landslides"},
+            {"yes", "no", " "},
+            {"Sunny Days", "Earthquakes", "Cyclones"},
+            {"A Volcano is a mountain containing a crater filled with lava", "A Volcano can only irrupt above sea level", "A Volcano produces smoke, magma and gas"},
     };
 
-    private String mCorrectAnswers[] = {"Roots", "Leaves", "Flower", "Stem"};
+    private String mCorrectAnswers[] = {"False", "An overflow of water that submerges land", "True", "7", "Rainfall", "A large wave usually formed by undersea earthquakes and landslides", "yes", "Sunny Days", "A Volcano can only irrupt above sea level"};
 
 
     public String getQuestion(int a) {
