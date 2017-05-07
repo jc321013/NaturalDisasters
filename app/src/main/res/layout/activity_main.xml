@@ -10,82 +10,40 @@
     tools:context="com.example.jc321013.naturaldisasters.MainActivity">
 
 
-    <RelativeLayout
+    <Button
+        android:id="@+id/button1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="New Game"
+        android:onClick=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:padding="6dp">
+        android:contextClickable="true"
+/>
 
-        <TextView
-            android:id="@+id/score_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:text="Score"
-            android:textSize="20sp" />
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_columnWeight="1"-->
+        <!--android:layout_rowWeight="1"-->
+        <!--android:contextClickable="true"-->
+        <!--android:text="HighScores"-->
+        <!--android:textAppearance="@android:style/TextAppearance.Large"-->
+        <!--android:textSize="30sp" />-->
 
-        <TextView
-            android:id="@+id/score"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:text="0"
-            android:textSize="20sp"
-
-            />
-
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
-        android:padding="8dp"
-        android:text="Which thing is alive"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/choice1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:background="@color/colorPrimary"
-        android:padding="8dp"
-        android:text="bird"
-        android:textColor="#fff" />
-
-    <Button
-        android:id="@+id/choice2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:background="@color/colorPrimary"
-        android:padding="8dp"
-        android:text="deer"
-        android:textColor="#fff"
-
-        />
-
-    <Button
-        android:id="@+id/choice3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:background="@color/colorPrimary"
-        android:padding="8dp"
-        android:text="rock"
-        android:textColor="#fff" />
-
-    <Button
-        android:id="@+id/quit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:background="@android:color/holo_red_dark"
-        android:padding="8dp"
-        android:text="quit"
-        android:textColor="#fff" />
+    <!--<Button-->
+        <!--android:id="@+id/button3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_columnWeight="1"-->
+        <!--android:layout_rowWeight="1"-->
+        <!--android:contextClickable="true"-->
+        <!--android:text="Exit"-->
+        <!--android:textAppearance="@android:style/TextAppearance.Large"-->
+        <!--android:textSize="30sp" />-->
 
 
 </LinearLayout>
