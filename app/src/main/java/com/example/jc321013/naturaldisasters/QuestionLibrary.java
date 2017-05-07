@@ -15,7 +15,10 @@ public class QuestionLibrary {
             "What is a Tsunami?",
             "Is an Earthquake caused by sudden movements of tectonic plates?",
             "Which of the following is not a natural hazard?",
-            "Which of the following is Incorrect about Volcanoes?:"
+            "Which of the following is INCORRECT about Volcanoes?",
+            "How is a tornado formed?",
+            "An Avalanche is a rapid flow of snow down a sloping surface?",
+            "Landslides are caused by three factors: snow cover, weak layer of snow cover & a trigger ",
     };
 
     private String mChoices [][] = {
@@ -28,9 +31,13 @@ public class QuestionLibrary {
             {"yes", "no", " "},
             {"Sunny Days", "Earthquakes", "Cyclones"},
             {"A Volcano is a mountain containing a crater filled with lava", "A Volcano can only irrupt above sea level", "A Volcano produces smoke, magma and gas"},
+            {"Two air masses that create instability in the atmosphere", "Strong winds", "Cluster of thunderstorms and a warm body of water"},
+            {"True", "False", " "},
+            {"True", "False", " "},
     };
 
-    private String mCorrectAnswers[] = {"False", "An overflow of water that submerges land", "True", "7", "Rainfall", "A large wave usually formed by undersea earthquakes and landslides", "yes", "Sunny Days", "A Volcano can only irrupt above sea level"};
+
+    private String mCorrectAnswers[] = {"False", "An overflow of water that submerges land", "True", "7", "Rainfall", "A large wave usually formed by undersea earthquakes and landslides", "yes", "Sunny Days", "A Volcano can only irrupt above sea level", "Two air masses that create instability in the atmosphere", "True", "False"};
 
 
     public String getQuestion(int a) {
